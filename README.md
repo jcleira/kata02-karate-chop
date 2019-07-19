@@ -4,13 +4,13 @@
 
 This repository contains my personal [kata02 Karate Chop](http://codekata.com/kata/kata02-karate-chop/) implementation.
 
-For this cata I would like to include the though process (briefly) that I had performing it.
+For this kata I would like to include the though process involved while doing it (briefly).
 
 #### entry 01
 
 After reading the kata, I though oh ok! a binary search, but with five different implementations!.
 
-Taking into account that I'll do it on Go I tried to think some of the implementations:
+Taking into account that I'll do it on Go I tried to think some possible implementations, I've got the following:
 
 - Basic.
 - Using concurrency (idiomatic one).
