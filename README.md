@@ -25,3 +25,5 @@ I would be creating a package for each implementation, and I would not include a
 First step: create unit testing, I would be using testify (for simple asserts) and table tests that I think that would fit perfectly.
 
 Second step: create benkchmarks, I would love to see how the different implementations relate on speed terms.
+
+Third step: Create the `basic` implementation, I wouldn't use any special Go language's feature, just a plain binary search implementation.
