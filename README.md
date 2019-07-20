@@ -17,3 +17,9 @@ Taking into account that I'll do it on Go I tried to think some possible impleme
 - Interface ready.
 - Concurrent (using Mutexes) - not totally sure about this one. 
 - Recursive - not something I would normally do (in Go).
+
+#### entry 02
+
+I would be creating a package for each implementation, and I would not include any `package main` (executable) as only I would need test to pass.
+
+Starting with the first implementation (basic), first step: create unit testing, I would be using testify (for simple asserts) and table tests (that looks so fine).
