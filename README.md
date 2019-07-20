@@ -33,3 +33,7 @@ Third step: Create the `basic` implementation, I wouldn't use any special Go lan
 Creating the concurrency implementation was not as fun as I though on the beggining, it quickly became a complex solution, and I knew from the beggining that It wouldn't be performant.
 
 The only thing that I enjoyed was checking for the goroutines and channels cleanup, as it's something that I always pay special attention (had some weird times with issues on that).
+
+#### entry 04
+
+The interfaces implementation, was a little funnier to develop. I wanted to extract the best interface that I could from Binary Search, ended creating one to update search's boundaries values.
