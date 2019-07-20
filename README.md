@@ -27,3 +27,9 @@ First step: create unit testing, I would be using testify (for simple asserts) a
 Second step: create benkchmarks, I would love to see how the different implementations relate on speed terms.
 
 Third step: Create the `basic` implementation, I wouldn't use any special Go language's feature, just a plain binary search implementation.
+
+#### entry 03
+
+Creating the concurrency implementation was not as fun as I though on the beggining, it quickly became a complex solution, and I knew from the beggining that It wouldn't be performant.
+
+The only thing that I enjoyed was checking for the goroutines and channels cleanup, as it's something that I always pay special attention (had some weird times with issues on that).
