@@ -12,10 +12,10 @@ After reading the kata, I though oh ok! a binary search, but with five different
 
 Taking into account that I'll do it on Go I tried to think some possible implementations, I've got the following:
 
-- Basic.
-- Using concurrency (for composition not perfomance).
-- Interface ready.
-- Slices 
+- Basic
+- Using concurrency (for composition not perfomance)
+- Interface ready
+- Slice manipulation
 - Standard Library (not trying to be too smart, but for pragmatism!) 
 
 I would be creating a package for each implementation, and I would not include any `package main` (executable) as only I would need test to pass.
@@ -34,10 +34,14 @@ Creating the concurrency implementation was not as fun as I though on the begini
 
 The only thing that I enjoyed was checking for the goroutines and channels cleanup, as it's something that I always pay special attention (had some weird times with issues on that).
 
-## interface implementation 
+## interface ready implementation 
 
-The interfaces implementation, was a little funnier to develop. I wanted to extract the best interface that I could from Binary Search, ended creating one to update search's boundaries values.
+The interfaces ready implementation, was a little funnier to develop. I wanted to extract the best interface that I could from Binary Search, ended creating one to update search's boundaries values.
 
-## slice implementation 
+## slice manipulation implementation 
 
-The Slices implementation has become the best to implement, manipulating the slice instead the boundaries was fun, and also it's the most performant, actually It has become my prefered solution
+The slice manipulation implementation became the best to implement, manipulating the slice instead of the boundaries was fun, and also it's the most performant!, actually It has become my prefered solution.
+
+## standard library implementation 
+
+The standard library implementation has not been created just to be too smart, I created it to show the love that I have for the standard library, as it is my first reference place when programming Go.
