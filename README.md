@@ -22,4 +22,6 @@ Taking into account that I'll do it on Go I tried to think some possible impleme
 
 I would be creating a package for each implementation, and I would not include any `package main` (executable) as only I would need test to pass.
 
-Starting with the first implementation (basic), first step: create unit testing, I would be using testify (for simple asserts) and table tests (that looks so fine).
+First step: create unit testing, I would be using testify (for simple asserts) and table tests that I think that would fit perfectly.
+
+Second step: create benkchmarks, I would love to see how the different implementations relate on speed terms.
